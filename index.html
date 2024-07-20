@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaqueries.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+           <a href="#home" class="active">Home</a>
+           <a href="#about">About</a>
+           <a href="#skills">Skills</a>
+           <a href="#portfolio">Portfolio</a>
+           <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, My name is</h3>
+            <h1>Kenny Cen</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, est. Optio rerum ex incidunt non esse quia inventore blanditiis aspernatur dicta.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="" class="btn">View Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="images/Home Page.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/user.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas iste, reiciendis reprehenderit ex illo. Doloribus unde nesciunt ab odio praesentium eligendi explicabo minus nemo at quod ducimus, nisi veniam.</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" data-tab="skills">Skills</p>
+                <p class="tab-links" data-tab="experience">Experience</p>
+                <p class="tab-links" data-tab="education">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul> 
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Team Leader</span><br>Designing Web/App interfaces</li>
+                    <li><span>Internship Neumann Klein</span><br>Data Entry / Tech Aid</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Baruch College</span><br>Rising Junior Major in Computer Information System</li>
+                    <li><span>IHSL</span><br>International High School at Lafayette</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium, possimus earum enim accusamus consequuntur est assumenda quia. Aspernatur perferendis eaque corrupti minus earum dolorum nemo repudiandae deserunt ad error!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium, possimus earum enim accusamus consequuntur est assumenda quia. Aspernatur perferendis eaque corrupti minus earum dolorum nemo repudiandae deserunt ad error!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium, possimus earum enim accusamus consequuntur est assumenda quia. Aspernatur perferendis eaque corrupti minus earum dolorum nemo repudiandae deserunt ad error!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/1.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""><i class="fa-solid fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/2.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""><i class="fa-solid fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/3.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""><i class="fa-solid fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/4.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""><i class="fa-solid fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/5.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""><i class="fa-solid fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/6.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""><i class="fa-solid fa-share-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box">
+                <input type="hidden" name="access_key" value="8169fedd-4e96-416a-b790-c8e65d9a7776">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email"  placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="number"  placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+          <div class="social-Icon">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <div class="footer-Nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2024; Designed by <span class="designer">Kenny Cen</span></p>
+        </div>
+      </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
