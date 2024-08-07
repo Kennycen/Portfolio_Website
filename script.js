@@ -42,6 +42,8 @@ ScrollReveal().reveal('.home-img, .skills-container, .portfolio-box, .contact fo
 ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 
+// automate text transition in hero section
+
 const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Software Engineer'],
     typeSpeed: 70,
