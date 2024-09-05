@@ -32,6 +32,8 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+/* NAVIGATION */
+
 .header {
     position: fixed;
     top: 0;
@@ -68,6 +70,8 @@ section {
     color: var(--text-color);
     display: none;
 }
+
+/* HOME SECTION */
 
 .home {
     display: flex;
@@ -440,6 +444,7 @@ footer {
   .social-Icon a:hover {
     background-color: var(--main-color);
     transition: 0.5s;
+    box-shadow: 0 0 1rem var(--main-color);
   }
   
   .social-Icon a:hover i{
