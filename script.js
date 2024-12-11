@@ -4,7 +4,15 @@ let navbar = document.querySelector('.navbar');
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active');
-}
+};
+
+// Close navbar when clicking a link
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', () => {
+        menuIcon.classList.remove('fa-xmark');
+        navbar.classList.remove('active');
+    });
+});
 
 let sections = document.querySelector('section');
 let navLinks = document.querySelector('header nav a');
